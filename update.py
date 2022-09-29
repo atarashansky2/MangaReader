@@ -19,7 +19,13 @@ def main():
            "doom-breaker",
            "i-grow-stronger-by-eating",
            "helmut-the-forsaken-child",
-           "eleceed"]
+           "eleceed",
+           "earth-savior-selection",
+           "the-exorcism-record",
+           "legend-of-the-northern-blade",
+           "the-return-of-the-crazy-demon",
+           "the-lazy-prince-becomes-a-genius",
+           "the-max-level-hero-has-returned"]
 
     for title in titles:
         if os.path.exists(f"{title}.json"):
