@@ -25,7 +25,12 @@ def main():
            "legend-of-the-northern-blade",
            "the-return-of-the-crazy-demon",
            "the-lazy-prince-becomes-a-genius",
-           "the-max-level-hero-has-returned"]
+           "the-max-level-hero-has-returned",
+           "the-scholars-reincarnation",
+            "the-legendary-moonlight-sculptor",
+            "reverse-villain",
+            "return-of-the-blossoming-blade"
+           ]
 
     for title in titles:
         if os.path.exists(f"{title}.json"):
