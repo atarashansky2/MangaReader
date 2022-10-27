@@ -29,7 +29,11 @@ def main():
            "the-scholars-reincarnation",
             "the-legendary-moonlight-sculptor",
             "reverse-villain",
-            "return-of-the-blossoming-blade"
+            "return-of-the-blossoming-blade",
+            "warrior-high-school-dungeon-raid-course",
+            "endless-devourer",
+            "ill-be-taking-a-break-for-personal-reasons",
+            "drug-devourer"
            ]
 
     for title in titles:
