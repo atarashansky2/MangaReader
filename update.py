@@ -33,7 +33,8 @@ def main():
             "warrior-high-school-dungeon-raid-course",
             "endless-devourer",
             "ill-be-taking-a-break-for-personal-reasons",
-            "drug-devourer"
+            "drug-devourer",
+            "the-great-mage-returns-after-4000-years"
            ]
 
     for title in titles:
@@ -53,7 +54,7 @@ def main():
         failure_counter = 0
 
         new_image_urls = {}
-        print(f"Scraping {title}...")
+        flag=False
         while True:
             res = requests.get(f"https://mangaonlineteam.com/manga/{title}/chapter-{page}/")    
             s = str(res.content)
@@ -69,7 +70,10 @@ def main():
             else:
                 failure_counter = 0
 
-            print(f"Downloading chapter {page}...")
+            if not flag:
+                print(f"Scraping {title}...")
+                flag=True
+            print(f"\tDownloading chapter {page}...")
             for i in searchers:
                 url = 'http'+s[s.find(i):].split('http')[1].split('\"')[0]
                 L = new_image_urls.get(page,[])
