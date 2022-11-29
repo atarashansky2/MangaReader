@@ -35,7 +35,7 @@ def main():
             "ill-be-taking-a-break-for-personal-reasons",
             "drug-devourer",
             "the-great-mage-returns-after-4000-years",
-            "overgeared"
+            "overgeared-team-argo"
            ]
 
     for title in titles:
