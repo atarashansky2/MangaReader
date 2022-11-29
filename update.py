@@ -34,7 +34,8 @@ def main():
             "endless-devourer",
             "ill-be-taking-a-break-for-personal-reasons",
             "drug-devourer",
-            "the-great-mage-returns-after-4000-years"
+            "the-great-mage-returns-after-4000-years",
+            "overgeared"
            ]
 
     for title in titles:
