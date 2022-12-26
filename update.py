@@ -35,7 +35,8 @@ def main():
             "ill-be-taking-a-break-for-personal-reasons",
             "drug-devourer",
             "the-great-mage-returns-after-4000-years",
-            "overgeared-team-argo"
+            "overgeared-team-argo",
+            "the-player-that-cant-level-up",
            ]
 
     for title in titles:
